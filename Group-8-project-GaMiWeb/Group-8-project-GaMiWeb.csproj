@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.html" />
+    <Content Include="Index-footer.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
