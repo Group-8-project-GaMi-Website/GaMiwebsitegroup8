@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Gami.svg" />
+    <Content Include="images\logo.svg" />
     <Content Include="Index-footer.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
