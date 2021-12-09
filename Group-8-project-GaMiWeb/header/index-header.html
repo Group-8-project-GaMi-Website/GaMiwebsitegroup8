@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Header design</title>
+    <!--Import Jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="inner-header container">
+                <div class="logo-header">
+                    <img src="images1/logo.svg" />
+                </div>
+
+                <div class="gami">
+                    <img src="images1/Gami.svg" />
+                </div>
+
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Cho Chó</a></li>
+                        <li><a href="">Cho Mèo</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <div class="search-box">
+                    <div class="input-box">
+                        <input type="text"
+                               placeholder="Nhập..." />
+                    </div>
+
+                    <div class="search-button">
+                        <img src="images1/bi_search.svg" alt="" />
+                    </div>
+
+                    <script>
+                        $('.search-box .input-box input').focus(
+                            () => {
+                                $('.search-box .input-box').addClass('active')
+                            }
+                        );
+                        $('.search-box .input-box input').blur(
+                            () => {
+                                $('.search-box .input-box').removeClass('active')
+                            }
+                        )
+                    </script>
+                </div>
+
+                <div class="account-cart">
+                    <img src="images1/account.svg" />
+                    <img src="images1/shopping-cart.svg" />
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        <div id="banner">
+            <p></p>
+        </div>
+        <div id="content" class="container">
+            <h1>Sản phẩm sale</h1>
+            <div class="sale">
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+            </div>
+            <h1>Sản phẩm mới</h1>
+            <div class="new">
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+            </div>
+            <h1>Thương hiệu</h1>
+            <div class="brand">
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+                <img src="images1/goods2.svg" />
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $('header').addClass('sticky');
+                } else {
+                    $('header').removeClass('sticky');
+                }
+            })
+        });
+    </script>
+</body>
+</html>
