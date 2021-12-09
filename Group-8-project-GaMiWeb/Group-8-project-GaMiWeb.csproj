@@ -76,12 +76,12 @@
     <Content Include="header\index-header.html" />
     <Content Include="header\images1\banner1.svg" />
     <Content Include="header\style.css" />
-    <Content Include="images\Gami.svg" />
+    <Content Include="footer\images\Gami.svg" />
     <Content Include="header\images1\goods2.svg" />
-    <Content Include="images\logo.svg" />
+    <Content Include="footer\images\logo.svg" />
     <Content Include="header\images1\banner1.png" />
-    <Content Include="Index-footer.html" />
-    <Content Include="style.css" />
+    <Content Include="footer\Index-footer.html" />
+    <Content Include="footer\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
