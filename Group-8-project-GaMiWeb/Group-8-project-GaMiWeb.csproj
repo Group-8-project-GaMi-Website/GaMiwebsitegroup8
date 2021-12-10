@@ -81,9 +81,11 @@
     <Content Include="images\shopping-cart.svg" />
     <Content Include="index-footer.html" />
     <Content Include="index-header.html" />
+    <Content Include="Login.html" />
     <Content Include="Register.html" />
     <Content Include="style-footer.css" />
     <Content Include="style-header.css" />
+    <Content Include="style-login.css" />
     <Content Include="style-regis.css" />
     <Content Include="Web.config" />
   </ItemGroup>

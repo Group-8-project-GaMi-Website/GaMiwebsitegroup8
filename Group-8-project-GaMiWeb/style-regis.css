@@ -22,6 +22,7 @@ h2 {
     font-weight: 700;
     color: var(--chocolate);
     font-family: 'Baloo 2', cursive;
+    text-transform:capitalize;
 }
 a{
     padding:5px;
@@ -172,7 +173,7 @@ label {
     cursor:pointer;
 }
 
-/*reponsive*/
+/*responsive*/
 @media screen and (min-width:900px) {
     .split-screen {
         flex-direction:row;
