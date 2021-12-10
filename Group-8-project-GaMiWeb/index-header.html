@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <link rel="stylesheet" href="style-header.css" />
     <title>Header design</title>
     <!--Import Jquery-->
@@ -18,14 +19,33 @@
                 </div>
 
                 <div class="gami">
-                    <img src="images/Gami.svg" />
+                    <img src="images/Gami-1.svg" />
                 </div>
 
                 <nav>
                     <ul id="main-menu">
                         <li><a href="" data-loading-text="Trang chủ">Trang chủ</a></li>
-                        <li><a href="" data-loading-text="Cho Chó">Cho Chó</a></li>
-                        <li><a href="" data-loading-text="Cho Mèo">Cho Mèo</a></li>
+                        <li><a href="" data-loading-text="Cho Chó">Cho Chó</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Đồ ăn</a></li>
+                                <li><a href="">Thuốc</a></li>
+                                <li><a href="">Tắm gội</a></li>
+                                <li><a href="">Vật dụng</a></li>
+                                <li><a href="">Đồ chơi</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                            </ul>     
+                        </li>
+                        <li>
+                            <a href="" data-loading-text="Cho Mèo">Cho Mèo</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Đồ ăn</a></li>
+                                <li><a href="">Thuốc</a></li>
+                                <li><a href="">Tắm gội</a></li>
+                                <li><a href="">Vật dụng</a></li>
+                                <li><a href="">Đồ chơi</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                            </ul>
+                        </li>
                         <li><a href="" data-loading-text="Blog">Blog</a></li>
                     </ul>
                 </nav>
@@ -79,6 +99,14 @@
                     $('header').removeClass('sticky');
                 }
             })
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>">
+    <script>
+        $(document).ready(function () {
+           // alert('ok'); ok trước mới làm tiếp
+            //tìm tất cả các li có sub-menu và thêm nó vào class has-child
+            $('.sub-menu').parent('li').addClass('has-child');
         });
     </script>
 </body>

@@ -31,6 +31,11 @@ a {
     margin: 0px auto;
 }
 
+header:hover{
+    background: #e6e2e2;
+    border-bottom: none;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -39,6 +44,7 @@ header {
     border-bottom: 1px solid #5C4D48;
     padding: 10px 0px;
     transition: all 0.5s ease-in-out;
+    
 }
 
     header.sticky {
@@ -52,17 +58,23 @@ header {
             color: #fff;
         }
 
-.logo-header {
-    width: 102px;
-    height: 77px;
-    display: block;
-    float: left;
+
+
+    .logo-header {
+        padding: 5px, 0px;
+        display: block;
+        
+    }
+
+#logo-header img{
+    max-width: 100px;
+    height: auto;
 }
 
 #gami {
     width: 100px;
     height: 40px;
-    display: block;
+    display:block;
 }
 
 .clearfix {
@@ -110,13 +122,13 @@ header {
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background: #5C4D48;
+        background: #3A3330;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
         right: 0px;
-        box-shadow: 0 0 0 10px #5C4D48;
+        box-shadow: 0 0 0 10px #3A3330;
         cursor: pointer;
     }
 
@@ -144,18 +156,15 @@ header {
     align-items: center;
 }
 
-
-
 ul#main-menu {
     display: flex;
     padding-left: 80px;
 }
 
     ul#main-menu a {
-        
         padding: 10px 30px;
         display: block;
-        color: #5C4D48;
+        color: #3A3330;
         font-weight: 400;
         font-size: 26px;
         font-family: 'Baloo 2', cursive;
@@ -170,22 +179,61 @@ ul#main-menu {
             overflow: hidden;
             padding: 0px;
             position: absolute;
-            transition: all .4s;
-            
-            
+            transition: all 0.25s;
         }
 
         ul#main-menu a:hover::before{
             width: 100%;
-
         }
 
-        #banner {
-            background: url(images/banner2.svg);
-            min-height: 600px;
-            width: 100%;
-            background-size: cover;
+    ul#main-menu ul.sub-menu {
+        position: absolute;
+        background-color: #e6e2e2;
+        padding: 15px 0px;
+        width: 200px;
+        border-radius: 10%;
+        margin-top: 0px;
+        display: none;
+    }
+
+    ul#main-menu li:hover > ul.sub-menu {
+        display: block;
+    }
+
+        ul#main-menu ul.sub-menu a {
+            padding: 5px 15px;
+            font-size: 20px;
+            font-weight: 100;
         }
+        ul#main-menu ul.sub-menu li:first-child a{
+            border: none;
+        }
+
+#main-menu .sub-menu li:hover a {
+    color: #F69946;
+}
+
+#main-menu > li.has-child::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color: #3A3330;
+    position: absolute;
+    top: 30px;
+    margin-left: 10px;
+    padding: 12px 0px;
+}
+
+#main-menu > li.has-child:hover::after {
+    color: #F69946;
+}
+
+#banner {
+    background: url(images/banner2.svg);
+    min-height: 600px;
+    width: 100%;
+    background-size: cover;
+}
 
 .content h1 {
     padding: 30px 0px;
