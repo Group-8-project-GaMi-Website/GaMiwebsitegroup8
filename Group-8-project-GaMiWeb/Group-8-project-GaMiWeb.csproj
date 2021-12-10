@@ -67,19 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="header\images1\account.svg" />
-    <Content Include="header\images1\banner2.svg" />
-    <Content Include="header\images1\bi_search.svg" />
-    <Content Include="header\images1\Gami.svg" />
-    <Content Include="header\images1\logo.svg" />
-    <Content Include="header\images1\shopping-cart.svg" />
-    <Content Include="header\index-header.html" />
-    <Content Include="header\images1\banner1.svg" />
-    <Content Include="header\style.css" />
     <Content Include="footer\images\Gami.svg" />
-    <Content Include="header\images1\goods2.svg" />
     <Content Include="footer\images\logo.svg" />
-    <Content Include="header\images1\banner1.png" />
     <Content Include="footer\Index-footer.html" />
     <Content Include="footer\style.css" />
     <Content Include="images\account.svg" />
