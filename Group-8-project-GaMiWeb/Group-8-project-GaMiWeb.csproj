@@ -74,15 +74,18 @@
     <Content Include="images\banner2.svg" />
     <Content Include="images\banner4.svg" />
     <Content Include="images\bi_search.svg" />
-    <Content Include="images\Gami-1.svg" />
     <Content Include="images\Gami.svg" />
     <Content Include="images\goods2.svg" />
     <Content Include="images\logo.svg" />
     <Content Include="images\shopping-cart.svg" />
     <Content Include="index-footer.html" />
     <Content Include="index-header.html" />
+    <Content Include="Login.html" />
+    <Content Include="Register.html" />
     <Content Include="style-footer.css" />
     <Content Include="style-header.css" />
+    <Content Include="style-login.css" />
+    <Content Include="style-regis.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
