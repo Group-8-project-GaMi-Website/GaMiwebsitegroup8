@@ -32,7 +32,7 @@ a {
 }
 
 header:hover{
-    background: #e6e2e2;
+    background: #fff;
     border-bottom: none;
 }
 
@@ -48,34 +48,40 @@ header {
 }
 
     header.sticky {
-        background: #5C4D48;
-        opacity: 0.95;
+        background: #fff;
         padding: 5px 0px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
     }
 
         header.sticky #main-menu a {
-            color: #fff;
+            color: #3A3330;
+            
+        }
+        header.sticky #main-menu #li.has-child {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f107";
+            padding: 5px 0px;
+            color: #3A3330;
+            top: 20px;
         }
 
+        
 
 
     .logo-header {
         padding: 5px, 0px;
-        display: block;
+        display: flex;
+        width: 20px;
+        
         
     }
 
 #logo-header img{
-    max-width: 100px;
-    height: auto;
+    max-width: 10px;
+    height: 10px;
 }
 
-#gami {
-    width: 100px;
-    height: 40px;
-    display:block;
-}
 
 .clearfix {
     clear: both;
@@ -92,7 +98,7 @@ header {
 
     .search-box .input-box {
         position: relative;
-        background: #fff;
+        background: none;
         padding: 5px;
         border-radius: 10px;
         width: 0px;
@@ -114,47 +120,96 @@ header {
         }
 
             .search-box .input-box input::placeholder {
-                color: #000;
+                color: #fff;
+                opacity: 0.8;
+                font-size: 10px;
             }
 
     /*Search -button*/
-    .search-box .search-button {
-        width: 15px;
-        height: 15px;
+    .search-box .search-button:before {
+        font-family: "FontAwesome";
+        font-weight: 500;
+        font-size: 25px;
+        content: "\f002";
+        color: #F69946;
+        top: -1px;
+        padding: 1px 5px;
         border-radius: 50%;
-        background: #3A3330;
+        background: none;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
         right: 0px;
-        box-shadow: 0 0 0 10px #3A3330;
+        box-shadow: 0 0 0 10px none;
         cursor: pointer;
+        
     }
 
-    .search-box .searvh-button img {
-        width: 20px;
-        height: 20px;
-    }
-
+   
     .search-box:hover > .input-box {
         width: 150px;
+        background: #3A3330;
+        
     }
 
-.account-cart {
-    width: 96px;
-    height: 40px;
-    display: block;
-    padding: 0px;
-    margin: 0px;
-}
+    .search-box:hover > .search-button {
+        top: 0px;
+        color: #fff;
+        
+    }
 
+    .account-cart {
+        width: 96px;
+        height: 40px;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        
+    }
 
-.inner-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        .account-cart .account:before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f007";
+            color: #3A3330;
+            font-size: 22px;
+            top: -2px;
+            right: 100px;
+            padding: 10px 0px;
+            display: flex;
+            position: absolute;
+        }
+
+        .account-cart .account:hover:before {
+            font-size: 28px;
+            color: #F69946;
+        }
+
+        .account-cart .cart:before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f07a";
+            color: #3A3330;
+            font-size: 22px;
+            top: -2px;
+            left: 20px;
+            padding: 10px 0px;
+            display: flex;
+            position: absolute;
+        }
+
+        .account-cart .cart:hover:before {
+            font-size: 28px;
+            color: #F69946;
+        }
+
+        .inner-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
 ul#main-menu {
     display: flex;
@@ -188,7 +243,7 @@ ul#main-menu {
 
     ul#main-menu ul.sub-menu {
         position: absolute;
-        background-color: #e6e2e2;
+        background-color: #fff;
         padding: 15px 0px;
         width: 200px;
         border-radius: 10%;
@@ -197,20 +252,22 @@ ul#main-menu {
     }
 
     ul#main-menu li:hover > ul.sub-menu {
-        display: block;
+        display: inline-block;
     }
 
-        ul#main-menu ul.sub-menu a {
-            padding: 5px 15px;
-            font-size: 20px;
-            font-weight: 100;
-        }
+    ul#main-menu ul.sub-menu a {
+        padding: 5px 20px;
+        font-size: 20px;
+        font-weight: 100;
+        transition: all 0.5s ease;
+    }
         ul#main-menu ul.sub-menu li:first-child a{
             border: none;
         }
 
 #main-menu .sub-menu li:hover a {
     color: #F69946;
+    padding-left: 8px;
 }
 
 #main-menu > li.has-child::after {
