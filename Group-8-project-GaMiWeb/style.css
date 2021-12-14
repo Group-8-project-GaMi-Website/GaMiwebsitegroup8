@@ -30,6 +30,7 @@ section {
 
 .btn {
     margin-top: 1rem;
+    border-radius:5px;
     display: inline-block;
     padding: .8rem 3rem;
     background: #564741;
@@ -314,7 +315,7 @@ section {
 
 .home {
     padding-top: 14rem;
-    background: url(../image/home-bg.jpg) no-repeat;
+    background: url(../images/home.png) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
