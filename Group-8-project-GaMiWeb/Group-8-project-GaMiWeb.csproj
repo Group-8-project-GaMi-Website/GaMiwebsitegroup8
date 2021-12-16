@@ -103,6 +103,8 @@
     <Content Include="images\blog2.jpg" />
     <Content Include="images\blog3.jpg" />
     <Content Include="images\blog4.jpg" />
+    <Content Include="images\blog5.jpg" />
+    <Content Include="images\blog6.jpg" />
     <Content Include="images\cart-1.jpg" />
     <Content Include="images\cart-2.jpg" />
     <Content Include="images\cart-3.jpg" />
