@@ -80,7 +80,9 @@
     <Content Include="images\banner-1.jpg" />
     <Content Include="images\banner-1.png" />
     <Content Include="images\banner-2.jpg" />
+    <Content Include="images\banner-2.png" />
     <Content Include="images\banner-3.jpg" />
+    <Content Include="images\banner-3.png" />
     <Content Include="images\banner1.png" />
     <Content Include="images\banner1.svg" />
     <Content Include="images\banner2.jpg" />
