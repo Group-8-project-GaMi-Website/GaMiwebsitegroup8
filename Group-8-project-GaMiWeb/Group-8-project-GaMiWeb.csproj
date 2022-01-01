@@ -165,6 +165,7 @@
     <Content Include="images\prod-7_1-768x768.jpg" />
     <Content Include="images\prod-8_1-768x768.jpg" />
     <Content Include="images\prod-9_1-768x768.jpg" />
+    <Content Include="images\shiba.jfif" />
     <Content Include="images\shopping-cart.svg" />
     <Content Include="images\slider-home1-img-1.jpg" />
     <Content Include="images\slider-home1-img-2-1.jpg" />
@@ -172,8 +173,10 @@
     <Content Include="images\slider3.png" />
     <Content Include="images\vector-img-8.png" />
     <Content Include="info.html" />
+    <Content Include="register.html" />
     <Content Include="script.js" />
     <Content Include="shop.html" />
+    <Content Include="style-register.css" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
