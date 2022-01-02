@@ -114,6 +114,7 @@
     <Content Include="images\food1.png" />
     <Content Include="images\food2.png" />
     <Content Include="images\food3.png" />
+    <Content Include="images\freeship.png" />
     <Content Include="images\gallery-img-1.jpg" />
     <Content Include="images\gallery-img-2.jpg" />
     <Content Include="images\gallery-img-3.jpg" />
@@ -121,6 +122,8 @@
     <Content Include="images\gallery-img-5.jpg" />
     <Content Include="images\gallery-img-6.jpg" />
     <Content Include="images\Gami-1.svg" />
+    <Content Include="images\giamgia.png" />
+    <Content Include="images\giao nhanh.png" />
     <Content Include="images\goods2.svg" />
     <Content Include="images\heading-bg.jpg" />
     <Content Include="images\hero_home_01.jpg" />
