@@ -536,6 +536,7 @@ section {
         .category .box-container .box:hover h3 {
             color: #f69946;
         }
+
 .products .box-container {
     display: -ms-grid;
     display: grid;
@@ -626,70 +627,6 @@ section {
 
 
 
-.footer {
-  background: #f3f3f3;
-}
-
-.footer .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
-}
-
-.footer .box-container .box h3 {
-  font-size: 2.2rem;
-  color: #222;
-  padding: 1rem 0;
-}
-
-.footer .box-container .box p {
-  font-size: 1.5rem;
-  color: #666;
-  padding-bottom: .5rem;
-}
-
-.footer .box-container .box a {
-  font-size: 1.4rem;
-  color: #666;
-  padding: 1rem 0;
-  display: block;
-}
-
-    .footer .box-container .box a:hover {
-        color: #f69946;
-    }
-
-.footer .box-container .box a:hover i {
-  padding-right: 2rem;
-}
-
-    .footer .box-container .box a i {
-        padding-right: .5rem;
-        color: #f69946;
-    }
-
-.footer .box-container .box form input[type="email"] {
-  width: 100%;
-  padding: 1rem 1.2rem;
-  font-size: 1.6rem;
-  color: #222;
-  margin: 1rem 0;
-  text-transform: none;
-}
-
-.footer .box-container .box .payment {
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.credit {
-    text-align: center;
-    background: #564741;
-    color: #fff;
-    font-size: 2rem;
-}
 
 
 
@@ -877,91 +814,6 @@ section {
             line-height: 2;
         }
 
-
-/*media queries*/
-
-@media (max-width: 991px) {
-    html {
-        font-size: 55%;
-    }
-
-    .header {
-        padding: 2rem;
-    }
-
-    section {
-        padding: 3rem 2rem;
-    }
-
-    .home #next-slide,
-    .home #prev-slide {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        top: 88%;
-    }
-
-    .home #prev-slide {
-        left: auto;
-        right: 8rem;
-    }
-}
-
-
-@media (max-width: 768px){
-    #menu-btn{
-        display: inline-block;
-    }
-
-    .header .search-form{
-        width: 100%;
-        right: 0;
-        border-radius: 0;
-    }
-
-        .header .search-form .active {
-            top: 99%;
-            border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-            border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
-        }
-
-    .header .navbar {
-        position: absolute;
-        top: 99%;
-        left: 0;
-        right: 0;
-        background: #fff;
-        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-
-        .header .navbar.active {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        }
-
-        .header .navbar a {
-            margin: 1.5rem;
-            padding: 1.5rem;
-            background: #f3f3f3;
-            font-size: 2rem;
-            display: block;
-            border-radius: .5rem;
-        }
-}
-
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
-
-    .home .slides-container .slide .content h3 {
-        font-size: 5rem;
-    }
-
-}
-
 .blogs .box-container {
     display: -ms-grid;
     display: grid;
@@ -1134,4 +986,160 @@ section {
         flex: 1 1 40rem;
         width: 100%;
     }
+
+.footer {
+    background: #f3f3f3;
+}
+
+    .footer .box-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1.5rem;
+    }
+
+        .footer .box-container .box h3 {
+            font-size: 2.2rem;
+            color: #222;
+            padding: 1rem 0;
+        }
+
+        .footer .box-container .box p {
+            font-size: 1.5rem;
+            color: #666;
+            padding-bottom: .5rem;
+        }
+
+        .footer .box-container .box a {
+            font-size: 1.4rem;
+            color: #666;
+            padding: 1rem 0;
+            display: block;
+        }
+
+            .footer .box-container .box a:hover {
+                color: #f69946;
+            }
+
+                .footer .box-container .box a:hover i {
+                    padding-right: 2rem;
+                }
+
+            .footer .box-container .box a i {
+                padding-right: .5rem;
+                color: #f69946;
+            }
+
+        .footer .box-container .box form input[type="email"] {
+            width: 100%;
+            padding: 1rem 1.2rem;
+            font-size: 1.6rem;
+            color: #222;
+            margin: 1rem 0;
+            text-transform: none;
+        }
+
+        .footer .box-container .box .payment {
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+.credit {
+    text-align: center;
+    background: #564741;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+/*media queries*/
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+
+    .home #next-slide,
+    .home #prev-slide {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        top: 88%;
+    }
+
+    .home #prev-slide {
+        left: auto;
+        right: 8rem;
+    }
+}
+
+
+@media (max-width: 768px){
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .search-form{
+        width: 100%;
+        right: 0;
+        border-radius: 0;
+    }
+
+        .header .search-form .active {
+            top: 99%;
+            border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+            border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+        }
+
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+        .header .navbar.active {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        .header .navbar a {
+            margin: 1.5rem;
+            padding: 1.5rem;
+            background: #f3f3f3;
+            font-size: 2rem;
+            display: block;
+            border-radius: .5rem;
+        }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home .slides-container .slide .content h3 {
+        font-size: 5rem;
+    }
+
+    .contact .row form .inputBox input {
+        width: 100%;
+    }
+
+}
+
+
 
