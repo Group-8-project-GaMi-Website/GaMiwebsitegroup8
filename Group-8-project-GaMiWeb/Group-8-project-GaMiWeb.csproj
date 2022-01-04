@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="blog.html" />
+    <Content Include="Checkout.html" />
     <Content Include="contact.html" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
@@ -201,8 +202,10 @@
     <Content Include="pet_food.html" />
     <Content Include="review.html" />
     <Content Include="register.html" />
+    <Content Include="script-checkout.js" />
     <Content Include="script.js" />
     <Content Include="shop.html" />
+    <Content Include="style-checkout.css" />
     <Content Include="style-register.css" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
