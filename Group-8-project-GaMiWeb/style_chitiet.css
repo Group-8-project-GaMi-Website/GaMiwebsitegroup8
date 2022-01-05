@@ -1,0 +1,70 @@
+﻿
+
+.chitietsanpham {
+   
+}
+    .chitietsanpham .main{
+        display:flex;
+
+    }
+         .chitietsanpham .main .img{
+
+            }
+         .chitietsanpham .main .chitiet {
+
+            }
+            .chitietsanpham .main .chitiet .content h2 {
+                font-size: 2.5rem;
+                color: #564741;
+                padding-bottom: .5rem;
+            }
+            .chitietsanpham .main .chitiet .content h3 {
+                font-size: 2rem;
+                color: #564741;
+                padding-bottom: .5rem;
+            }
+            .chitietsanpham .main .chitiet .content span {
+                font-size: 1rem;
+                color: #564741;
+                padding-bottom: .5rem;
+            }
+             .chitietsanpham .main .chitiet .action{
+                 display:flex;
+
+             }
+                .chitietsanpham .main .chitiet .action .soluong{
+
+                }
+                .chitietsanpham .main .chitiet .action .themvaogio{
+
+                }
+    .chitietsanpham .anh{
+        display:flex;
+
+    }
+    .chitietsanpham .tuongtu{
+
+    }
+        .chitietsanpham .tuongtu .tieude h2 {
+            font-size: 2rem;
+            color: #564741;
+            padding-bottom: .5rem;
+        }
+        .chitietsanpham .tuongtu .sanpham{
+            display:flex;
+
+        }
+            .chitietsanpham .tuongtu .sanpham .anhsp{
+
+            }
+            .chitietsanpham .tuongtu .sanpham .tensp h3{
+                font-size: 2rem;
+                color: #564741;
+                padding-bottom: .5rem;
+            }
+            .chitietsanpham .tuongtu .sanpham .tensp span {
+                font-size: 2rem;
+                color: #564741;
+                padding-bottom: .5rem;
+            }
+         
