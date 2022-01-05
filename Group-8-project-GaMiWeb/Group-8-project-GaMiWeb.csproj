@@ -70,6 +70,7 @@
     <Content Include="about.html" />
     <Content Include="blog.html" />
     <Content Include="Checkout.html" />
+    <Content Include="chitiet.html" />
     <Content Include="contact.html" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
@@ -281,7 +282,8 @@
     <Content Include="style-checkout.css" />
     <Content Include="style-register.css" />
     <Content Include="style.css" />
-    <Content Include="vacine.html" />
+    <Content Include="style_chitiet.css" />
+    <Content Include="vaccine.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
