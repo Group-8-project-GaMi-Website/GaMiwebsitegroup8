@@ -230,6 +230,12 @@
     <Content Include="images\slider-home1-img-2-1.jpg" />
     <Content Include="images\slider-home1-img-3-1.jpg" />
     <Content Include="images\slider3.png" />
+    <Content Include="images\vaccine1.png" />
+    <Content Include="images\vaccine2.png" />
+    <Content Include="images\vaccine3.png" />
+    <Content Include="images\vaccine4.png" />
+    <Content Include="images\vaccine5.png" />
+    <Content Include="images\vaccine6.png" />
     <Content Include="images\vector-img-8.png" />
     <Content Include="pet_food_all.html" />
     <Content Include="pet_food.html" />
@@ -243,6 +249,7 @@
     <Content Include="style-checkout.css" />
     <Content Include="style-register.css" />
     <Content Include="style.css" />
+    <Content Include="vacine.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
