@@ -1053,7 +1053,7 @@ section {
 }
 
 .heading-shampoo {
-    background: url(images/shampoo_slider.png);
+    background: url(images/beauty_slider.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1080,6 +1080,7 @@ section {
             .heading-shampoo p a:hover {
                 color: #564741;
             }
+
 
 
 /*media queries*/
