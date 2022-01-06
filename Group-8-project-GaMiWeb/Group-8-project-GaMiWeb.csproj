@@ -173,6 +173,11 @@
     <Content Include="images\pf-18.png" />
     <Content Include="images\pf-19.png" />
     <Content Include="images\pf-20.png" />
+    <Content Include="images\pf-21.png" />
+    <Content Include="images\pf-22.png" />
+    <Content Include="images\pf-23.png" />
+    <Content Include="images\pf-24.png" />
+    <Content Include="images\pf-25.png" />
     <Content Include="images\pic-1.png" />
     <Content Include="images\pic-2.png" />
     <Content Include="images\pic-3.png" />
@@ -197,6 +202,7 @@
     <Content Include="images\slider-home1-img-3-1.jpg" />
     <Content Include="images\slider3.png" />
     <Content Include="images\vector-img-8.png" />
+    <Content Include="Admin\product_management.html" />
     <Content Include="pet_food_all.html" />
     <Content Include="pet_food.html" />
     <Content Include="review.html" />
