@@ -8,24 +8,25 @@
 
     }
          .chitietsanpham .main .img{
+             
 
             }
          .chitietsanpham .main .chitiet {
-
+             
             }
             .chitietsanpham .main .chitiet .content h2 {
-                font-size: 2.5rem;
+                font-size: 3.5rem;
                 color: #564741;
                 padding-bottom: .5rem;
             }
             .chitietsanpham .main .chitiet .content h3 {
-                font-size: 2rem;
-                color: #564741;
+                font-size: 2.5rem;
+                color: #f69946;
                 padding-bottom: .5rem;
             }
             .chitietsanpham .main .chitiet .content span {
-                font-size: 1rem;
-                color: #564741;
+                font-size: 1.5rem;
+                color: #666;
                 padding-bottom: .5rem;
             }
              .chitietsanpham .main .chitiet .action{
@@ -43,6 +44,7 @@
 
     }
     .chitietsanpham .tuongtu{
+        
 
     }
         .chitietsanpham .tuongtu .tieude h2 {
@@ -50,21 +52,42 @@
             color: #564741;
             padding-bottom: .5rem;
         }
-        .chitietsanpham .tuongtu .sanpham{
-            display:flex;
-
+        .chitietsanpham .tuongtu .sptuongtu {
+            
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap: 1.5rem;
+            
         }
-            .chitietsanpham .tuongtu .sanpham .anhsp{
-
+            .chitietsanpham .tuongtu .sptuongtu .sanpham {
+                position: relative;
+                background: #f3f3f3;
+                text-align: center;
+                overflow: hidden;
+                margin: 10px;
             }
-            .chitietsanpham .tuongtu .sanpham .tensp h3{
-                font-size: 2rem;
-                color: #564741;
-                padding-bottom: .5rem;
-            }
-            .chitietsanpham .tuongtu .sanpham .tensp span {
-                font-size: 2rem;
-                color: #564741;
-                padding-bottom: .5rem;
-            }
+                .chitietsanpham .tuongtu .sptuongtu .sanpham .anhsp {
+                    height: 30rem;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                    .chitietsanpham .tuongtu .sptuongtu .sanpham .anhsp img {
+                        height: 100%;
+                        width: 100%;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                    }
+                .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp h3 {
+                        font-size: 1.5rem;
+                        color: #564741;
+                        padding-bottom: .5rem;
+                    }
+                .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp span {
+                    font-size: 1rem;
+                    color: #f69946;
+                    padding-bottom: .5rem;
+                    font-weight: bold;
+                }
          
