@@ -1,24 +1,24 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Source+Sans+Pro&display=swap');
 
-*{
+* {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none; 
+    outline: none;
     border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
 }
 
-@mixin grid($val){
+@mixin grid($val) {
     display: grid;
     grid-template-columns: repeat(auto-fix, minmax($val,1fr));
-    grid-gap:1.5rem;
+    grid-gap: 1.5rem;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -27,6 +27,7 @@ html{
 section {
     padding: 3rem 9%;
 }
+
 .heading {
     background: url(images/slider-home1-img-1.jpg);
     background-size: cover;
@@ -35,6 +36,7 @@ section {
     padding-top: 12rem;
     padding-bottom: 8rem;
 }
+
     .heading h1 {
         color: #fff;
         font-size: 4rem;
@@ -44,7 +46,6 @@ section {
         padding-top: 1rem;
         font-size: 2rem;
         color: #fff;
-
     }
 
         .heading p a {
@@ -87,7 +88,7 @@ section {
 
 .btn {
     margin-top: 1rem;
-    border-radius:5px;
+    border-radius: 5px;
     display: inline-block;
     padding: .8rem 3rem;
     background: #564741;
@@ -121,9 +122,9 @@ section {
         font-weight: bold;
     }
 
-    .header .navbar a:hover {
-        color: #f69946;
-    }
+        .header .navbar a:hover {
+            color: #f69946;
+        }
 
     .header .icons div {
         font-size: 2.5rem;
@@ -136,9 +137,10 @@ section {
             color: #f69946;
         }
 
-        #menu-btn{
-            display: none;
-        }
+#menu-btn {
+    display: none;
+}
+
 .header .search-form {
     position: absolute;
     top: -115%;
@@ -287,26 +289,35 @@ section {
         font-weight: bold;
     }
 
-    .header .login-form .box {
-        margin: .7rem 0;
-        border: 0.1rem solid rgba(0, 0, 0, 0.1);
-        padding: 1rem 1.2rem;
-        font-size: 1.5rem;
-        color: #564741;
-        text-transform: none;
-        width: 100%;
-    }
+  
 
-    .header .login-form .remember {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        gap: .5rem;
-        margin: .7rem 0;
+    .header .login-form .field .input-area input {
+        height:45px;
+        width:100%;
+        outline:none;
+        padding: 0 35px;
+        font-size:18px;
+        border-radius:5px;
+        border: 1px solid #bfbfbf;
+        border-bottom-width:2px;
+        text-transform:lowercase;
     }
+        .header .login-form .field .input-area input::placeholder{
+            color: #bfbfbf;
+            font-size:17px;
+            text-transform:capitalize;
+        }
+
+        .header .login-form .remember {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            gap: .5rem;
+            margin: .7rem 0;
+        }
 
         .header .login-form .remember label {
             font-size: 1.5rem;
@@ -320,19 +331,83 @@ section {
         text-align: center;
     }
 
+    .header .login-form .field {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+@keyframes shake {
+    0%, 100% {
+        margin-left: 0;
+    }
+
+    20%, 80% {
+        margin-left: -12px;
+    }
+
+    40%, 60% {
+        margin-left: 12px;
+    }
+}
+
+.header .login-form .field.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+.header .login-form .field .input-area {
+    position: relative;
+
+}
+
+.header .login-form .field i {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.header .login-form .field .icon {
+    left: 15px;
+    color: #bfbfbf;
+}
+
+.header .login-form .field .error-icon {
+    right: 15px;
+    color: #dc3545;
+}
+
+.header .login-form .field .error-txt {
+    color: #dc3545;
+    margin-top: 5px;
+    text-align: left;
+    
+}
+
+.header .login-form .field .error {
+    display: none;
+}
+    .header .login-form .field.error .error{
+        display:block;
+    }
+    .header .login-form .field.error input{
+        border-color: #dc3545;
+    }
+
     .header .login-form p {
         color: #564741;
         padding-top: .7rem;
         font-size: 1.4rem;
     }
 
-        .header .login-form p a {
-            color: #f69946;
-        }
+    .header .login-form p a {
+        color: #f69946;
+    }
 
-            .header .login-form p a:hover {
-                text-decoration: underline;
-            }
+        .header .login-form p a:hover {
+            text-decoration: underline;
+        }
 
 #menu-btn {
     display: none;
@@ -617,7 +692,7 @@ section {
                 font-size: 2rem;
                 color: #f69946;
                 padding: 1rem 0;
-                font-weight : bold;
+                font-weight: bold;
             }
 
             .products .box-container .box .content .stars i {
@@ -641,7 +716,7 @@ section {
     flex-wrap: wrap;
     gap: 1.5rem;
 }
-    
+
 
     .about .image {
         -webkit-box-flex: 1;
@@ -1111,12 +1186,12 @@ section {
 }
 
 
-@media (max-width: 768px){
-    #menu-btn{
+@media (max-width: 768px) {
+    #menu-btn {
         display: inline-block;
     }
 
-    .header .search-form{
+    .header .search-form {
         width: 100%;
         right: 0;
         border-radius: 0;
@@ -1167,8 +1242,4 @@ section {
     .contact .row form .inputBox input {
         width: 100%;
     }
-
 }
-
-
-

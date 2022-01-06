@@ -1,217 +1,162 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Source+Sans+Pro&display=swap');
-
-:root {
+﻿:root {
     font-size: 100%;
     font-size: 16px;
     line-height: 1.5;
     --chocolate: #5C4D48;
     --orange-juice: #F69946;
-    --primary-blue: #233975;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
-    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    font-weight: 500;
-}
-
-h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    font-family: 'Baloo 2', cursive;
-}
-
-h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     color: var(--chocolate);
-    font-family: 'Baloo 2', cursive;
-    text-transform: capitalize;
+}
+/* Global Stylings */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
-a {
-    padding: 5px;
-    text-decoration: none;
-    color: var(--primary-blue);
+input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
 }
 
-    a:hover {
-        text-decoration: underline;
-    }
+.width-50 {
+    width: 50%;
+}
 
-.small {
-    font-size: 80%;
+.ml-auto {
+    margin-left: auto;
+}
+
+.text-center {
     text-align: center;
 }
 
-.split-screen {
+/* Progressbar */
+.progressbar {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem 0 4rem;
 }
 
-.left {
-    height: 200px;
+    .progressbar::before,
+    .progress {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 100%;
+        background-color: #dcdcdc;
+        z-index: -1;
+    }
+
+.progress {
+    background-color: var(--orange-juice);
+    width: 0%;
+    transition: 0.3s;
 }
 
-.left, .right {
+.progress-step {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    background-color: #dcdcdc;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url('images/shiba.jfif');
-    background-size: cover;
-}
-
-    .left .copy {
-        color: white;
-        text-align: center;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+    .progress-step::before {
+        counter-increment: step;
+        content: counter(step);
     }
 
-    .left p {
-        font-weight: 400;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
-
-.right {
-    background: #FCF9F4;
-}
-
-    .right .copy {
-        color: black;
-        text-align: center;
-    }
-
-        .right .copy p {
-            margin: 1.5em 0;
-            font-size: 0.875rem;
-            font-family: 'Source Sans Pro', sans-serif;
-        }
-
-    .right form {
-        width: 328px;
-    }
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"] {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 8px;
-    border: 1px solid #c4c4c4;
-    padding: 1em;
-    margin-bottom: 1.25rem;
-    font-size: 0.875rem;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 0.75rem;
-    color: var(--chocolate);
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.input-container .password {
-    position: relative;
-    color: #c4c4c4;
-}
-
-    .input-container .password i {
+    .progress-step::after {
+        content: attr(data-title);
         position: absolute;
-        top: 42px;
-        right: 16px;
+        top: calc(100% + 0.5rem);
+        font-size: 0.85rem;
+        color: var(--chocolate);
     }
 
-.checkbox-container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+.progress-step-active {
+    background-color: var(--orange-juice);
+    color: #f3f3f3;
 }
 
-.checkbox-container {
+/* Form */
+.form {
+    width: clamp(320px, 30%, 430px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 0.35rem;
+    padding: 1.5rem;
+}
+
+.form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+}
+
+.form-step-active {
     display: block;
-    position: relative;
-    padding-left: 2rem;
-    cursor: pointer;
-    user-select: none;
-    margin: 0 0 1.25rem 0;
 }
 
-    .checkbox-container input:checked ~ .checkmark {
+.input-group {
+    margin: 2rem 0;
+}
+
+@keyframes animate {
+    from {
+        transform: scale(1, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+/* Button */
+.btns-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.btn {
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--chocolate);
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .btn:hover {
+        box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--orange-juice);
         background-color: var(--orange-juice);
-        border: 1px solid var(--orange-juice);
     }
 
-.checkmark {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    background: white;
-    border: 1px solid #c4c4c4;
-    border-radius: 2px;
-    top: -4px;
-    left: 0;
-}
-
-    .checkmark:after {
-        content: '';
-        position: absolute;
-        display: none;
-    }
-
-.checkbox-container input:checked ~ .checkmark:after {
-    display: block;
-}
-
-.checkbox-container .checkmark:after {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    width: 5px;
-    height: 10px;
-    left: 8px;
-    top: 4px;
-    transform: rotate(45deg);
-}
-
-.signup-btn {
-    display: block;
-    width: 100%;
-    background: var(--chocolate);
-    color: white;
-    font-weight: 700;
-    border: none;
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-family: 'Baloo 2', cursive;
-}
-
-    .signup-btn:hover {
-        background: var(--orange-juice);
-        cursor: pointer;
-    }
-
-/*responsive*/
-@media screen and (min-width:900px) {
-    .split-screen {
-        flex-direction: row;
-        height: 100vh;
-    }
-
-    .left,
-    .right {
-        display: flex;
-        width: 50%;
-        height: auto;
-    }
-}

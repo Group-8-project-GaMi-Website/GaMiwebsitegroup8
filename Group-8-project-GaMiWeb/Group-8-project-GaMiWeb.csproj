@@ -279,6 +279,7 @@
     <Content Include="review.html" />
     <Content Include="register.html" />
     <Content Include="script-checkout.js" />
+    <Content Include="script-regis.js" />
     <Content Include="script.js" />
     <Content Include="beauty.html" />
     <Content Include="shampoo.html" />
