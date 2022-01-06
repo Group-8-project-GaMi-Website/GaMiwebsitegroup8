@@ -1128,7 +1128,7 @@ section {
 }
 
 .heading-shampoo {
-    background: url(images/beauty_slider.jpg);
+    background: url(images/shampoo_slider.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1153,6 +1153,34 @@ section {
         }
 
             .heading-shampoo p a:hover {
+                color: #564741;
+            }
+.heading-beauty {
+    background: url(images/beauty_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-beauty h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-beauty p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-beauty p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-beauty p a:hover {
                 color: #564741;
             }
 
