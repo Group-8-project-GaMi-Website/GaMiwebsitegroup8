@@ -745,13 +745,7 @@ section {
             padding-top: .5rem;
         }
 
-        .about .content p {
-            color: #666;
-            font-size: 1.4rem;
-            line-height: 2;
-            padding: 1rem 0;
-        }
-
+       
 
 .gallery .box-container {
     display: -ms-grid;
