@@ -28,7 +28,7 @@ section {
     padding: 3rem 9%;
 }
 .heading {
-    background: url(../images/slider-home1-img-1.jpg);
+    background: url(images/slider-home1-img-1.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1051,6 +1051,35 @@ section {
     color: #fff;
     font-size: 2rem;
 }
+
+.heading-shampoo {
+    background: url(images/shampoo_slider.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-shampoo h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-shampoo p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-shampoo p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-shampoo p a:hover {
+                color: #564741;
+            }
 
 
 /*media queries*/
