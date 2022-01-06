@@ -1156,6 +1156,34 @@ section {
                 color: #564741;
             }
 
+.heading-house {
+    background: url(images/slider-home1-img-3-1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-house h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-house p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-house p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-house p a:hover {
+                color: #564741;
+            }
 
 /*media queries*/
 

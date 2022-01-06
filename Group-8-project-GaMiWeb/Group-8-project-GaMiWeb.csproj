@@ -210,6 +210,19 @@
     <Content Include="images\pf-23.png" />
     <Content Include="images\pf-24.png" />
     <Content Include="images\pf-25.png" />
+    <Content Include="images\ph_AUGUST PET P68027A.jpg" />
+    <Content Include="images\ph_AUPET Hello Kitty.jpg" />
+    <Content Include="images\ph_Catsysmile PETISMILE.jpg" />
+    <Content Include="images\ph_LOFFE Animal Backpack.jpg" />
+    <Content Include="images\ph_LOFFE Bubble Bag.jpg" />
+    <Content Include="images\ph_LOFFE Eggshell.jpg" />
+    <Content Include="images\ph_LOFFE Outdoor Transparent.jpg" />
+    <Content Include="images\ph_LOFFE Panoramic.jpg" />
+    <Content Include="images\ph_LOFFE Pet Shoulder Bag.jpg" />
+    <Content Include="images\ph_LOFFE Square Transparent.jpg" />
+    <Content Include="images\ph_MAKAR Cat Litter Station.jpg" />
+    <Content Include="images\ph_PETISMILE Space Rocket.jpg" />
+    <Content Include="images\ph_RIS PDPC Dog &amp; Cat Kennel.jpg" />
     <Content Include="images\pic-1.png" />
     <Content Include="images\pic-2.png" />
     <Content Include="images\pic-3.png" />
@@ -276,6 +289,7 @@
     <Content Include="Admin\product_management.html" />
     <Content Include="pet_food_all.html" />
     <Content Include="pet_food.html" />
+    <Content Include="pet_house.html" />
     <Content Include="review.html" />
     <Content Include="register.html" />
     <Content Include="script-checkout.js" />
