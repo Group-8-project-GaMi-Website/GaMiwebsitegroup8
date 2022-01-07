@@ -1,85 +1,71 @@
 ﻿
 
-.chitietsanpham {
-   
-}
-    .chitietsanpham .main{
+
+    .main{
         display:flex;
 
     }
-         .chitietsanpham .main .img{
-             
-
-            }
-         .chitietsanpham .main .chitiet {
-             
-            }
-            .chitietsanpham .main .chitiet .content h2 {
+          
+        .chitiet {
+            padding: 30px;
+        }
+           h2 {
                 font-size: 3.5rem;
                 color: #564741;
                 padding-bottom: .5rem;
             }
-            .chitietsanpham .main .chitiet .content h3 {
+             h3 {
                 font-size: 2.5rem;
                 color: #f69946;
                 padding-bottom: .5rem;
             }
-            .chitietsanpham .main .chitiet .content span {
+            .noidung {
                 font-size: 1.5rem;
                 color: #666;
                 padding-bottom: .5rem;
             }
-             .chitietsanpham .main .chitiet .action{
+              .action{
                  display:flex;
 
              }
-                .chitietsanpham .main .chitiet .action .soluong{
-
-                }
-                .chitietsanpham .main .chitiet .action .themvaogio{
-
-                }
-    .chitietsanpham .anh{
+              
+     .anh{
         display:flex;
 
     }
-    .chitietsanpham .tuongtu{
-        
 
-    }
-        .chitietsanpham .tuongtu .tieude h2 {
-            font-size: 2rem;
-            color: #564741;
-            padding-bottom: .5rem;
-        }
-        .chitietsanpham .tuongtu .sptuongtu {
-            
-            display: -ms-grid;
-            display: grid;
-            -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-            gap: 1.5rem;
-            
-        }
-            .chitietsanpham .tuongtu .sptuongtu .sanpham {
+
+.sptuongtu {
+    padding: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+          .sanpham {
+                
                 position: relative;
                 background: #f3f3f3;
                 text-align: center;
                 overflow: hidden;
-                margin: 10px;
+                margin: 20px 40px;
+                
             }
-                .chitietsanpham .tuongtu .sptuongtu .sanpham .anhsp {
-                    height: 30rem;
+                 .anhsp {
+                    height: 20rem;
                     width: 100%;
                     overflow: hidden;
                 }
-                    .chitietsanpham .tuongtu .sptuongtu .sanpham .anhsp img {
+ 
+                     .anhsp img {
                         height: 100%;
                         width: 100%;
                         -o-object-fit: cover;
                         object-fit: cover;
                     }
-                .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp h3 {
+/*
+               .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp h3 {
                         font-size: 1.5rem;
                         color: #564741;
                         padding-bottom: .5rem;
@@ -90,4 +76,12 @@
                     padding-bottom: .5rem;
                     font-weight: bold;
                 }
+    */ 
+.themvaogio button{
+    background-color:#564741;
+    color:#f3f3f3;
+    font-weight:bold;
+    padding:15px 30px;
+}
+
          
