@@ -7,49 +7,69 @@
     }
           
         .chitiet {
-            padding: 30px;
+            padding: 10px 50px;
         }
            h2 {
                 font-size: 3.5rem;
                 color: #564741;
-                padding-bottom: .5rem;
+                
             }
              h3 {
                 font-size: 2.5rem;
                 color: #f69946;
-                padding-bottom: .5rem;
+                
             }
             .noidung {
                 font-size: 1.5rem;
                 color: #666;
                 padding-bottom: .5rem;
             }
-              .action{
-                 display:flex;
-
-             }
+         .action{
+             display:flex;
+             margin-top:50px;
+              }
+            .themvaogio button {
+                background-color: #564741;
+                color: #f3f3f3;
+                font-weight: bold;
+                padding: 15px 30px;
+                font-size:1rem;
+            }
               
-     .anh{
+     .anhchitiet{
         display:flex;
+        
 
     }
+        .anh  {
+            width: 150px;
+            height: 150px;
+            margin:10px 20px;
+            
+        }
+            .anh img {
+                height: 100%;
+                width: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+            }
 
 
-.sptuongtu {
-    padding: 50px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1.5rem;
-}
+    .sptuongtu {
+        padding: 30px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1.5rem;
+    }
           .sanpham {
                 
                 position: relative;
                 background: #f3f3f3;
                 text-align: center;
                 overflow: hidden;
-                margin: 20px 40px;
+                margin: 10px 40px;
                 
             }
                  .anhsp {
@@ -64,24 +84,14 @@
                         -o-object-fit: cover;
                         object-fit: cover;
                     }
-/*
-               .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp h3 {
-                        font-size: 1.5rem;
-                        color: #564741;
-                        padding-bottom: .5rem;
-                    }
-                .chitietsanpham .tuongtu .sptuongtu .sanpham .tensp span {
-                    font-size: 1rem;
-                    color: #f69946;
-                    padding-bottom: .5rem;
+
+               
+                .gia {
+                    font-size: 1.5rem;
+                    color: #564741;                   
                     font-weight: bold;
                 }
-    */ 
-.themvaogio button{
-    background-color:#564741;
-    color:#f3f3f3;
-    font-weight:bold;
-    padding:15px 30px;
-}
+  
+
 
          

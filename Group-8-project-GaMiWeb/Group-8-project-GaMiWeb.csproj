@@ -1826,6 +1826,10 @@
     <Content Include="images\cart-1.jpg" />
     <Content Include="images\cart-2.jpg" />
     <Content Include="images\cart-3.jpg" />
+    <Content Include="images\chitiet1.jpg" />
+    <Content Include="images\chitiet2.jpg" />
+    <Content Include="images\chitiet3.jpg" />
+    <Content Include="images\chitiet4.jpg" />
     <Content Include="images\food1.png" />
     <Content Include="images\food2.png" />
     <Content Include="images\food3.png" />
@@ -2016,6 +2020,8 @@
     <Content Include="images\ion_paw-sharp.png" />
     <Content Include="images\logo-1.svg" />
     <Content Include="images\logo.svg" />
+    <Content Include="images\NA.jpg" />
+    <Content Include="images\NT.jpg" />
     <Content Include="images\page-title-default.jpg" />
     <Content Include="images\payment.png" />
     <Content Include="images\pf-01.png" />
@@ -2099,6 +2105,7 @@
     <Content Include="images\slider-home1-img-2-1.jpg" />
     <Content Include="images\slider-home1-img-3-1.jpg" />
     <Content Include="images\slider3.png" />
+    <Content Include="images\TA.jpg" />
     <Content Include="images\vaccine1.png" />
     <Content Include="images\vaccine2.png" />
     <Content Include="images\vaccine3.png" />
