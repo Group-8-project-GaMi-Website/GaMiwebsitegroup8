@@ -1121,6 +1121,35 @@ section {
     font-size: 2rem;
 }
 
+.heading-petfood {
+    background: url(images/bg-pf.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-petfood h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-petfood p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-petfood p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-petfood p a:hover {
+                color: #f69946;
+            }
+
 .heading-shampoo {
     background: url(images/shampoo_slider.png);
     background-size: cover;
