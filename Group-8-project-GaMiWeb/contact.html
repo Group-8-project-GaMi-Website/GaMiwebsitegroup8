@@ -82,17 +82,33 @@
 
         <form action="" class="login-form">
             <h3>Login form</h3>
-            <input type="email" placeholder="Enter your email" class="box" />
-            <input type="password" placeholder="Enter your password" class="box" />
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Enter your email" class="box" />
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Enter your password" class="box" />
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
             <div class="remember">
                 <input type="checkbox" name="" id="remember-me" />
                 <label for="remember-me">Remember me</label>
             </div>
             <input type="submit" value="Login now" class="btn" />
             <p>forget password? <a href="#">Click here</a></p>
-            <p>don't have an account? <a href="#">Create one</a></p>
+            <p>don't have an account? <a href="register.html">Create one</a></p>
         </form>
-        <script type="text/javascript">window.$crisp = [];
+        <script type="text/javascript">
+    window.$crisp = [];
             window.CRISP_WEBSITE_ID = "e4983e6a-06f0-42ca-b683-b7723850abc0";
             (function () {
                 d = document; s = d.createElement("script");
@@ -149,8 +165,8 @@
                 <textarea placeholder="your message" cols="30" rows="10"></textarea>
                 <input type="submit" value="send message" class="btn">
             </form>
-           
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2191164482465!2d106.7760666147498!3d10.870932092257455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175277dbf11a271%3A0x4567e34b99494e3f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIHThur8gLSBMdeG6rXQgLSDEkOG6oWkgSOG7jWMgUXXhu5FjIEdpYSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1641438770433!5m2!1svi!2s" 
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2191164482465!2d106.7760666147498!3d10.870932092257455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175277dbf11a271%3A0x4567e34b99494e3f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIHThur8gLSBMdeG6rXQgLSDEkOG6oWkgSOG7jWMgUXXhu5FjIEdpYSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1641438770433!5m2!1svi!2s"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
@@ -207,10 +223,7 @@
             <div class="box">
                 <h3>follow us</h3>
                 <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
                 <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
             </div>
 
             <div class="box">
@@ -227,7 +240,7 @@
 
     </section>
 
-    <section class="credit">created by group 8 | all rights reserved!</section>
+    <section class="credit">created by group 8 | Business website development</section>
 
     <!-- footer section ends -->
     <!-- custom css file link-->
