@@ -837,7 +837,7 @@ section {
 
 
 
-.review {
+.review .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
@@ -845,12 +845,12 @@ section {
     gap: 1rem;
 }
 
-    .review .box {
+    .review .box-container .box {
         padding: 1.5rem;
         border: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
 
-        .review .box .user {
+        .review .box-container .box .user {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -859,25 +859,26 @@ section {
             align-items: center;
             gap: 1rem;
             margin-bottom: 1rem;
+            
         }
 
-            .review .box .user img {
+            .review .box-container .box .user img {
                 height: 7rem;
                 width: 7rem;
                 border-radius: 50%;
             }
 
-            .review .box .user h3 {
+            .review .box-container .box .user h3 {
                 font-size: 2.2rem;
                 color: #564741;
             }
 
-            .review .box .user span {
+            .review .box-container .box .user span {
                 font-size: 1.4rem;
                 color: #f69946;
             }
 
-        .review .box p {
+        .review .box-container .box p {
             font-size: 1.4rem;
             color: #666;
             line-height: 2;

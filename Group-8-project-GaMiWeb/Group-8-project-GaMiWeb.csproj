@@ -73,6 +73,7 @@
     <Content Include="Admin\charts.html" />
     <Content Include="Admin\forgot-password.html" />
     <Content Include="Admin\gulpfile.js" />
+    <Content Include="Admin\img\logo-1.svg" />
     <Content Include="Admin\index.html" />
     <Content Include="Admin\input_produtcs.html" />
     <Content Include="Admin\login.html" />
