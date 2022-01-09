@@ -1295,6 +1295,36 @@ section {
                 color: #564741;
             }
 
+.heading-about {
+    background: url(images/banner_review.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-about h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-about p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-about p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-about p a:hover {
+                color: #f69946;
+            }
+
+
 /*media queries*/
 
 @media (max-width: 991px) {
@@ -1381,14 +1411,7 @@ section {
         width: 100%;
     }
 }
-.heading-about {
-    background: url(images/banner_review.jpg);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
-}
+
 
 
 

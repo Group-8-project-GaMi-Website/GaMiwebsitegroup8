@@ -2021,6 +2021,7 @@
     <Content Include="images\ion_paw-sharp.png" />
     <Content Include="images\logo-1.svg" />
     <Content Include="images\logo.svg" />
+    <Content Include="images\MH.jpg" />
     <Content Include="images\NA.jpg" />
     <Content Include="images\NA.png" />
     <Content Include="images\NT.jpg" />
@@ -2123,6 +2124,7 @@
     <Content Include="images\slider3.png" />
     <Content Include="images\TA.jpg" />
     <Content Include="images\TA.png" />
+    <Content Include="images\TV.jpg" />
     <Content Include="images\vaccine1.png" />
     <Content Include="images\vaccine2.png" />
     <Content Include="images\vaccine3.png" />
