@@ -1749,6 +1749,7 @@
     <Content Include="Admin\vendor\jquery\jquery.slim.js" />
     <Content Include="Admin\vendor\jquery\jquery.slim.min.js" />
     <Content Include="blog.html" />
+    <Content Include="blog1.html" />
     <Content Include="Checkout.html" />
     <Content Include="chitiet.html" />
     <Content Include="contact.html" />
