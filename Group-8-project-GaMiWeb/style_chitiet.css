@@ -1,61 +1,61 @@
 ﻿
 
-
-    .main{
-        display:flex;
-
+.chitietsanpham {
+    gap: 1.5rem;
+    
+}
+    .chitietsanpham .main {
+        display: flex;
+        margin: 10px 80px;
     }
-          
-        .chitiet {
-            padding: 10px 50px;
-        }
-           h2 {
-                font-size: 3.5rem;
-                color: #564741;
-                
-            }
-             h3 {
-                font-size: 2.5rem;
-                color: #f69946;
-                
-            }
-            .noidung {
-                font-size: 1.5rem;
-                color: #666;
-                padding-bottom: .5rem;
-            }
-         .action{
-             display:flex;
-             margin-top:50px;
-              }
-            .themvaogio button {
-                background-color: #564741;
-                color: #f3f3f3;
-                font-weight: bold;
-                padding: 15px 30px;
-                font-size:1rem;
-            }
-              
-     .anhchitiet{
-        display:flex;
+
+    .chitietsanpham .chitiet {
+        padding: 10px 50px;
+    }
+    .chitietsanpham h2 {
+        font-size: 3.5rem;
+        color: #564741;
+    }
+    .chitietsanpham h3 {
+        font-size: 2.5rem;
+        color: #f69946;
+    }
+    .chitietsanpham .noidung {
+        font-size: 1.5rem;
+        color: #666;
+        padding-bottom: .5rem;
         
-
     }
-        .anh  {
-            width: 150px;
-            height: 150px;
-            margin:10px 20px;
-            
+    .chitietsanpham .action {
+        display: flex;
+        margin-top: 50px;
+    }
+    .chitietsanpham .themvaogio button {
+        background-color: #564741;
+        color: #f3f3f3;
+        font-weight: bold;
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    .chitietsanpham .anhchitiet {
+        display: flex;
+        margin: 10px 70px;
+    }
+    .chitietsanpham .anh {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+        .chitietsanpham .anh img {
+            height: 100%;
+            width: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
         }
-            .anh img {
-                height: 100%;
-                width: 100%;
-                -o-object-fit: cover;
-                object-fit: cover;
-            }
 
 
-    .sptuongtu {
+    .chitietsanpham .sptuongtu {
         padding: 30px;
         display: -ms-grid;
         display: grid;
@@ -63,35 +63,193 @@
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         gap: 1.5rem;
     }
-          .sanpham {
-                
-                position: relative;
-                background: #f3f3f3;
-                text-align: center;
-                overflow: hidden;
-                margin: 10px 40px;
-                
-            }
-                 .anhsp {
-                    height: 20rem;
-                    width: 100%;
-                    overflow: hidden;
-                }
- 
-                     .anhsp img {
-                        height: 100%;
-                        width: 100%;
-                        -o-object-fit: cover;
-                        object-fit: cover;
-                    }
+    .chitietsanpham .sanpham {
+        position: relative;
+        background: #f3f3f3;
+        text-align: center;
+        overflow: hidden;
+        margin: 10px 40px;
+    }
+    .chitietsanpham .anhsp {
+        height: 20rem;
+        width: 100%;
+        overflow: hidden;
+    }
 
-               
-                .gia {
-                    font-size: 1.5rem;
-                    color: #564741;                   
-                    font-weight: bold;
+        .chitietsanpham .anhsp img {
+            height: 100%;
+            width: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+
+
+    .chitietsanpham .gia {
+        font-size: 1.5rem;
+        color: #564741;
+        font-weight: bold;
+    }
+.products .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+    .products .box-container .box {
+        position: relative;
+        background: #f3f3f3;
+        text-align: center;
+        overflow: hidden;
+    }
+
+        .products .box-container .box:hover .icons {
+            top: 0;
+        }
+
+        .products .box-container .box .icons {
+            position: absolute;
+            top: -105%;
+            left: 0;
+            height: 30rem;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            background: rgba(243, 243, 243, 0.8);
+            gap: 1rem;
+        }
+
+            .products .box-container .box .icons a {
+                font-size: 2rem;
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                background: #fff;
+                -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+                color: #666;
+            }
+
+                .products .box-container .box .icons a:hover {
+                    background: #f69946;
+                    color: #fff;
                 }
-  
+
+        .products .box-container .box .image {
+            height: 30rem;
+            width: 100%;
+            overflow: hidden;
+        }
+
+            .products .box-container .box .image img {
+                height: 100%;
+                width: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+            }
+
+        .products .box-container .box .content {
+            padding: 1.5rem;
+        }
+
+            .products .box-container .box .content h3 {
+                font-size: 2rem;
+                color: #222;
+            }
+
+            .products .box-container .box .content .price {
+                font-size: 2rem;
+                color: #f69946;
+                padding: 1rem 0;
+                font-weight: bold;
+            }
+
+            .products .box-container .box .content .stars i {
+                font-size: 1.7rem;
+                color: #f69946;
+            }
+
+.footer {
+    background: #f3f3f3;
+}
+
+    .footer .box-container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1.5rem;
+    }
+
+        .footer .box-container .box h3 {
+            font-size: 1.5rem;
+            color: #222;
+            padding: 1rem 0;
+        }
+
+        .footer .box-container .box p {
+            font-size: 1rem;
+            color: #666;
+            padding-bottom: .5rem;
+        }
+
+        .footer .box-container .box a {
+            font-size: 1rem;
+            color: #666;
+            padding: 1rem 0;
+            display: block;
+        }
+
+            .footer .box-container .box a:hover {
+                color: #f69946;
+            }
+
+                .footer .box-container .box a:hover i {
+                    padding-right: 2rem;
+                }
+
+            .footer .box-container .box a i {
+                padding-right: .5rem;
+                color: #f69946;
+            }
+
+        .footer .box-container .box form input[type="email"] {
+            width: 100%;
+            padding: 1rem 1.2rem;
+            font-size: 0.5rem;
+            color: #222;
+            margin: 1rem 0;
+            text-transform: none;
+        }
+
+        .footer .box-container .box .payment {
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+.credit {
+    text-align: center;
+    background: #564741;
+    color: #fff;
+    font-size: 2rem;
+}
+
+    .credit a {
+        color: #f69946;
+    }
+
+        .credit a:hover {
+            text-decoration: underline;
+        }
+
 
 
          
