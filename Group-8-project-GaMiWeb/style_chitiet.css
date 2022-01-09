@@ -1,70 +1,97 @@
 ﻿
 
-.chitietsanpham {
-   
-}
-    .chitietsanpham .main{
+
+    .main{
         display:flex;
 
     }
-         .chitietsanpham .main .img{
-
+          
+        .chitiet {
+            padding: 10px 50px;
+        }
+           h2 {
+                font-size: 3.5rem;
+                color: #564741;
+                
             }
-         .chitietsanpham .main .chitiet {
-
-            }
-            .chitietsanpham .main .chitiet .content h2 {
+             h3 {
                 font-size: 2.5rem;
-                color: #564741;
+                color: #f69946;
+                
+            }
+            .noidung {
+                font-size: 1.5rem;
+                color: #666;
                 padding-bottom: .5rem;
             }
-            .chitietsanpham .main .chitiet .content h3 {
-                font-size: 2rem;
-                color: #564741;
-                padding-bottom: .5rem;
+         .action{
+             display:flex;
+             margin-top:50px;
+              }
+            .themvaogio button {
+                background-color: #564741;
+                color: #f3f3f3;
+                font-weight: bold;
+                padding: 15px 30px;
+                font-size:1rem;
             }
-            .chitietsanpham .main .chitiet .content span {
-                font-size: 1rem;
-                color: #564741;
-                padding-bottom: .5rem;
-            }
-             .chitietsanpham .main .chitiet .action{
-                 display:flex;
-
-             }
-                .chitietsanpham .main .chitiet .action .soluong{
-
-                }
-                .chitietsanpham .main .chitiet .action .themvaogio{
-
-                }
-    .chitietsanpham .anh{
+              
+     .anhchitiet{
         display:flex;
+        
 
     }
-    .chitietsanpham .tuongtu{
+        .anh  {
+            width: 150px;
+            height: 150px;
+            margin:10px 20px;
+            
+        }
+            .anh img {
+                height: 100%;
+                width: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+            }
 
+
+    .sptuongtu {
+        padding: 30px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1.5rem;
     }
-        .chitietsanpham .tuongtu .tieude h2 {
-            font-size: 2rem;
-            color: #564741;
-            padding-bottom: .5rem;
-        }
-        .chitietsanpham .tuongtu .sanpham{
-            display:flex;
+          .sanpham {
+                
+                position: relative;
+                background: #f3f3f3;
+                text-align: center;
+                overflow: hidden;
+                margin: 10px 40px;
+                
+            }
+                 .anhsp {
+                    height: 20rem;
+                    width: 100%;
+                    overflow: hidden;
+                }
+ 
+                     .anhsp img {
+                        height: 100%;
+                        width: 100%;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                    }
 
-        }
-            .chitietsanpham .tuongtu .sanpham .anhsp{
+               
+                .gia {
+                    font-size: 1.5rem;
+                    color: #564741;                   
+                    font-weight: bold;
+                }
+  
 
-            }
-            .chitietsanpham .tuongtu .sanpham .tensp h3{
-                font-size: 2rem;
-                color: #564741;
-                padding-bottom: .5rem;
-            }
-            .chitietsanpham .tuongtu .sanpham .tensp span {
-                font-size: 2rem;
-                color: #564741;
-                padding-bottom: .5rem;
-            }
+
          

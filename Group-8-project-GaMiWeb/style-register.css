@@ -19,6 +19,7 @@ body {
     place-items: center;
     min-height: 100vh;
     color: var(--chocolate);
+    
 }
 /* Global Stylings */
 label {
@@ -33,6 +34,11 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.25rem;
 }
+
+    input[type="radio"] {
+        display: inline-flex;
+        width: 20px;
+    }
 
 .width-50 {
     width: 50%;
@@ -108,6 +114,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.35rem;
     padding: 1.5rem;
+    
 }
 
 .form-step {
@@ -123,6 +130,15 @@ input {
 .input-group {
     margin: 2rem 0;
 }
+.input-group>span{
+    
+    display:block;
+    font-style:italic;
+    color:red;
+    font-size:12px;
+}
+
+   
 
 @keyframes animate {
     from {
@@ -135,6 +151,8 @@ input {
         opacity: 1;
     }
 }
+
+
 
 /* Button */
 .btns-group {
@@ -159,4 +177,3 @@ input {
         box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--orange-juice);
         background-color: var(--orange-juice);
     }
-

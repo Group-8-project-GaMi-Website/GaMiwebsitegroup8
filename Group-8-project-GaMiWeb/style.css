@@ -745,13 +745,7 @@ section {
             padding-top: .5rem;
         }
 
-        .about .content p {
-            color: #666;
-            font-size: 1.4rem;
-            line-height: 2;
-            padding: 1rem 0;
-        }
-
+       
 
 .gallery .box-container {
     display: -ms-grid;
@@ -843,7 +837,7 @@ section {
 
 
 
-.review {
+.review .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
@@ -851,12 +845,12 @@ section {
     gap: 1rem;
 }
 
-    .review .box {
+    .review .box-container .box {
         padding: 1.5rem;
         border: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
 
-        .review .box .user {
+        .review .box-container .box .user {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -865,25 +859,26 @@ section {
             align-items: center;
             gap: 1rem;
             margin-bottom: 1rem;
+            
         }
 
-            .review .box .user img {
+            .review .box-container .box .user img {
                 height: 7rem;
                 width: 7rem;
                 border-radius: 50%;
             }
 
-            .review .box .user h3 {
+            .review .box-container .box .user h3 {
                 font-size: 2.2rem;
                 color: #564741;
             }
 
-            .review .box .user span {
+            .review .box-container .box .user span {
                 font-size: 1.4rem;
                 color: #f69946;
             }
 
-        .review .box p {
+        .review .box-container .box p {
             font-size: 1.4rem;
             color: #666;
             line-height: 2;
@@ -944,11 +939,11 @@ section {
                 }
 
                     .blogs .box-container .box .content .icons a:hover {
-                        color: #bac34e;
+                        color: #f69946;
                     }
 
                     .blogs .box-container .box .content .icons a i {
-                        color: #bac34e;
+                        color: #f69946;
                         padding-right: .5rem;
                     }
 
@@ -1127,6 +1122,35 @@ section {
     font-size: 2rem;
 }
 
+.heading-petfood {
+    background: url(images/bg-pf.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-petfood h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-petfood p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-petfood p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-petfood p a:hover {
+                color: #f69946;
+            }
+
 .heading-shampoo {
     background: url(images/shampoo_slider.png);
     background-size: cover;
@@ -1155,6 +1179,35 @@ section {
             .heading-shampoo p a:hover {
                 color: #564741;
             }
+.heading-beauty {
+    background: url(images/beauty_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-beauty h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-beauty p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-beauty p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-beauty p a:hover {
+                color: #564741;
+            }
+
 
 .heading-house {
     background: url(images/slider-home1-img-3-1.jpg);
