@@ -1324,3 +1324,11 @@ section {
         width: 100%;
     }
 }
+.heading-about {
+    background: url(images/banner_review.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
