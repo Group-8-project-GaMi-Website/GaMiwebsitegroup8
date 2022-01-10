@@ -265,13 +265,13 @@ input {
 
     .btn:focus {
         color: var(--white);
-        background: var(--azure);
-        outline: 2px solid var(--azure);
+        background: #f69946;
+        outline: 2px solid #f69946;
         outline-offset: 2px;
     }
 
 .btn-primary {
-    background: var(--azure);
+    background: #f69946;
     font-weight: var(--fw-5);
     color: var(--white);
     padding: 13px 45px;
@@ -332,7 +332,7 @@ input {
 }
 
     .product-qty button {
-        background: var(--platinum);
+        background: #f69946;
         width: 20px;
         height: 20px;
         display: flex;
@@ -385,12 +385,12 @@ input {
 
 .btn-outline {
     padding: 10px 25px;
-    border: 1px solid var(--azure);
-    color: var(--azure);
+    border: 1px solid #f69946;
+    color: #f69946;
 }
 
     .btn-outline:hover {
-        background: var(--azure);
+        background: #f69946;
         color: var(--white);
     }
 
