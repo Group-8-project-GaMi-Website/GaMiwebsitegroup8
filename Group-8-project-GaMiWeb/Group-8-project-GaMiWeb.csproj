@@ -2024,11 +2024,13 @@
     <Content Include="images\logo-1.svg" />
     <Content Include="images\logo.svg" />
     <Content Include="images\MH.jpg" />
+    <Content Include="images\MH.png" />
     <Content Include="images\NA.jpg" />
     <Content Include="images\NA.png" />
     <Content Include="images\NT.jpg" />
     <Content Include="images\page-title-default.jpg" />
     <Content Include="images\payment.png" />
+    <Content Include="images\pcy.png" />
     <Content Include="images\pf-01.png" />
     <Content Include="images\pf-02.png" />
     <Content Include="images\pf-03.png" />
