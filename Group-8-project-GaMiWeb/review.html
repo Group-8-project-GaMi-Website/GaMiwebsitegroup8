@@ -82,16 +82,39 @@
 
         <form action="" class="login-form">
             <h3>Login form</h3>
-            <input type="email" placeholder="Enter your email" class="box" />
-            <input type="password" placeholder="Enter your password" class="box" />
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Enter your email" class="box" />
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Enter your password" class="box" />
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
             <div class="remember">
                 <input type="checkbox" name="" id="remember-me" />
                 <label for="remember-me">Remember me</label>
             </div>
             <input type="submit" value="Login now" class="btn" />
             <p>forget password? <a href="#">Click here</a></p>
-            <p>don't have an account? <a href="#">Create one</a></p>
+            <p>don't have an account? <a href="register.html">Create one</a></p>
         </form>
+        <script type="text/javascript">
+            window.$crisp = [];
+            window.CRISP_WEBSITE_ID = "e4983e6a-06f0-42ca-b683-b7723850abc0";
+            (function () {
+                d = document; s = d.createElement("script");
+                s.src = "https://client.crisp.chat/l.js"; s.async = 1;
+                d.getElementsByTagName("head")[0].appendChild(s);
+            })();</script>
     </header>
 
     <div class="heading">
