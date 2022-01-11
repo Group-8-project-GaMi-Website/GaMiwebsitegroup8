@@ -1324,6 +1324,63 @@ section {
                 color: #f69946;
             }
 
+.heading-blog {
+    background: url(images/banner_blog.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-blog h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-blog p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-blog p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-blog p a:hover {
+                color: #f69946;
+            }
+
+.heading-contact {
+    background: url(images/banner_contact.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-contact h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-contact p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-contact p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-contact p a:hover {
+                color: #f69946;
+            }
 
 /*media queries*/
 

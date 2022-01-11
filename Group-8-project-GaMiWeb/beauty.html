@@ -82,8 +82,23 @@
 
         <form action="" class="login-form">
             <h3>Login form</h3>
-            <input type="email" placeholder="Enter your email" class="box" />
-            <input type="password" placeholder="Enter your password" class="box" />
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Enter your email" class="box" />
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Enter your password" class="box" />
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
             <div class="remember">
                 <input type="checkbox" name="" id="remember-me" />
                 <label for="remember-me">Remember me</label>
