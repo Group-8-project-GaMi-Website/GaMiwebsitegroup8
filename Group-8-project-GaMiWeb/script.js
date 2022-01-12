@@ -1,4 +1,6 @@
-﻿let searchForm = document.querySelector('.search-form');
+﻿const { pop } = require("./Admin/vendor/fontawesome-free/js/v4-shims");
+
+let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
     searchForm.classList.toggle('active');
@@ -68,6 +70,7 @@ loginForm.onsubmit = (e) => {
         console.log("Form submitted");
     }
 }
+
  document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');
     searchForm.classList.remove('active');
@@ -106,3 +109,17 @@ function prev() {
     index = (index - 1 + slides.length) % slides.length;
     slides[index].classList.add('active');
 }
+
+//Automatic show popup after 2s of page loading
+let popup = document.querySelector('.popup');
+let close = document.querySelector('.close');
+window.onload = function () {
+    setTimeout(function () {
+        popup.style.display = "block"
+
+        //add some time delay to show popup
+    }, 2000);
+}
+close.addEventListener('click', () => {
+    popup.style.display = "none";
+});
