@@ -289,35 +289,36 @@ section {
         font-weight: bold;
     }
 
-  
+
 
     .header .login-form .field .input-area input {
-        height:45px;
-        width:100%;
-        outline:none;
+        height: 45px;
+        width: 100%;
+        outline: none;
         padding: 0 35px;
-        font-size:18px;
-        border-radius:5px;
+        font-size: 18px;
+        border-radius: 5px;
         border: 1px solid #bfbfbf;
-        border-bottom-width:2px;
-        text-transform:lowercase;
+        border-bottom-width: 2px;
+        text-transform: lowercase;
     }
-        .header .login-form .field .input-area input::placeholder{
+
+        .header .login-form .field .input-area input::placeholder {
             color: #bfbfbf;
-            font-size:17px;
-            text-transform:capitalize;
+            font-size: 17px;
+            text-transform: capitalize;
         }
 
-        .header .login-form .remember {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            gap: .5rem;
-            margin: .7rem 0;
-        }
+    .header .login-form .remember {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: .5rem;
+        margin: .7rem 0;
+    }
 
         .header .login-form .remember label {
             font-size: 1.5rem;
@@ -334,7 +335,6 @@ section {
     .header .login-form .field {
         width: 100%;
         margin-bottom: 20px;
-        
     }
 
 @keyframes shake {
@@ -357,7 +357,6 @@ section {
 
 .header .login-form .field .input-area {
     position: relative;
-
 }
 
 .header .login-form .field i {
@@ -382,24 +381,25 @@ section {
     color: #dc3545;
     margin-top: 5px;
     text-align: left;
-    
 }
 
 .header .login-form .field .error {
     display: none;
 }
-    .header .login-form .field.error .error{
-        display:block;
+
+    .header .login-form .field.error .error {
+        display: block;
     }
-    .header .login-form .field.error input{
+
+    .header .login-form .field.error input {
         border-color: #dc3545;
     }
 
-    .header .login-form p {
-        color: #564741;
-        padding-top: .7rem;
-        font-size: 1.4rem;
-    }
+.header .login-form p {
+    color: #564741;
+    padding-top: .7rem;
+    font-size: 1.4rem;
+}
 
     .header .login-form p a {
         color: #f69946;
@@ -409,7 +409,7 @@ section {
             text-decoration: underline;
         }
 
-        
+
 
 #menu-btn {
     display: none;
@@ -747,7 +747,7 @@ section {
             padding-top: .5rem;
         }
 
-       
+
 
 .gallery .box-container {
     display: -ms-grid;
@@ -798,7 +798,7 @@ section {
             }
 
                 .gallery .box-container .box .icons a:hover {
-                    color:#f69946;
+                    color: #f69946;
                 }
 
 
@@ -840,7 +840,7 @@ section {
 
 
 
-.review  {
+.review {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
@@ -848,7 +848,7 @@ section {
     gap: 1.5rem;
 }
 
-    .review  .box {
+    .review .box {
         padding: 2rem;
         border: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
@@ -862,7 +862,6 @@ section {
             align-items: center;
             gap: 1.5rem;
             margin-bottom: 1.5rem;
-            
         }
 
             .review .box .user img {
@@ -886,6 +885,7 @@ section {
             color: #666;
             line-height: 2;
         }
+
 .team .box-container {
     display: -ms-grid;
     display: grid;
@@ -1173,8 +1173,8 @@ section {
     .credit a {
         color: #f69946;
     }
- 
-       .credit a:hover {
+
+        .credit a:hover {
             text-decoration: underline;
         }
 
@@ -1236,6 +1236,7 @@ section {
             .heading-shampoo p a:hover {
                 color: #564741;
             }
+
 .heading-beauty {
     background: url(images/beauty_slider.jpg);
     background-size: cover;
@@ -1527,11 +1528,3 @@ section {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-         
