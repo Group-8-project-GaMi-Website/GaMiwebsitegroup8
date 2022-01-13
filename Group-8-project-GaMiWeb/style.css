@@ -260,7 +260,7 @@ section {
     .header .shopping-cart .btn {
         text-align: center;
         width: 100%;
-    }   
+    }
 
 .header .login-form {
     position: absolute;
@@ -1469,72 +1469,6 @@ section {
         right: 8rem;
     }
 }
-.flower{
-    top:0px;
-    background: no-repeat fixed;
-    background-size: cover;
-    width:100%;
-    height:100%;
-    position: absolute;
-    left:0;
-
-}
-.fallingFlower{
-    text-align: center;
-}
-.fallingFlower span{
-    display:inline-block;
-    width: 32px;
-    height:32px;
-    background:url(images/cherry-blossom.png);
-    margin:-280px 40px 54px -34px;
-
-    -webkit-animation:fallingFlower 10s infinite linear;
-    -moz-animation:fallingFlower 10s infinite linear;
-}
-.fallingFlower span:nth-child(5n+5) {
-    -webkit-animation-delay: 1.3s;
-    -moz-animation-delay: 1.3s;
-}
-
-    .fallingFlower span:nth-child(3n+2) {
-        -webkit-animation-delay: 1.5s;
-        -moz-animation-delay: 1.5s;
-    }
-    .fallingFlower span:nth-child(2n+5) {
-        -webkit-animation-delay: 1.7s;
-        -moz-animation-delay: 1.7s;
-    }
-    .fallingFlower span:nth-child(3n+10) {
-        -webkit-animation-delay: 2.7s;
-        -moz-animation-delay: 2.7s;
-    }
-    .fallingFlower span:nth-child(7n+2) {
-        -webkit-animation-delay: 3.5s;
-        -moz-animation-delay: 3.5s;
-    }
-    .fallingFlower span:nth-child(4n+5) {
-        -webkit-animation-delay: 5.5s;
-        -moz-animation-delay: 5.5s;
-    }
-    .fallingFlower span:nth-child(3n+7) {
-        -webkit-animation-delay: 8s;
-        -moz-animation-delay: 8s;
-    }
-@-webkit-keyframes fallingFlower{
-    0%{
-        opacity:1;
-        -webkit-transform:translate(0,0px) rotateZ(0deg);
-    }
-    75% {
-        opacity: 1;
-        -webkit-transform: translate(100px, 600px) rotateZ(270deg);
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: translate(150px, 800px) rotateZ(360deg);
-    }
-}
 
 
 @media (max-width: 768px) {
@@ -1593,5 +1527,4 @@ section {
     .contact .row form .inputBox input {
         width: 100%;
     }
-
 }
