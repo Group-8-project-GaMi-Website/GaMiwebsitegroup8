@@ -1759,7 +1759,7 @@
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="font-awesome\HELP-US-OUT.txt" />
-    <Content Include="home.html" />
+    <Content Include="index.html" />
     <Content Include="images\about-img.jpg" />
     <Content Include="images\account.svg" />
     <Content Include="images\banner-1.jpg" />
