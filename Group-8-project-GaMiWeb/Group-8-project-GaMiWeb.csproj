@@ -1831,10 +1831,12 @@
     <Content Include="images\cart-1.jpg" />
     <Content Include="images\cart-2.jpg" />
     <Content Include="images\cart-3.jpg" />
+    <Content Include="images\cherry-blossom.png" />
     <Content Include="images\chitiet1.jpg" />
     <Content Include="images\chitiet2.jpg" />
     <Content Include="images\chitiet3.jpg" />
     <Content Include="images\chitiet4.jpg" />
+    <Content Include="images\close.png" />
     <Content Include="images\food1.png" />
     <Content Include="images\food2.png" />
     <Content Include="images\food3.png" />
@@ -1848,6 +1850,7 @@
     <Content Include="images\Gami-1.svg" />
     <Content Include="images\giamgia.png" />
     <Content Include="images\giao nhanh.png" />
+    <Content Include="images\gift.png" />
     <Content Include="images\goods2.svg" />
     <Content Include="images\heading-bg.jpg" />
     <Content Include="images\hero_home_01.jpg" />
@@ -2017,6 +2020,7 @@
     <Content Include="images\img-circle-7.png" />
     <Content Include="images\img-circle-8.png" />
     <Content Include="images\img-circle-9.png" />
+    <Content Include="images\img-layout-7-1.png" />
     <Content Include="images\img-vector-10-97x99.png" />
     <Content Include="images\img-vector-6.png" />
     <Content Include="images\img-vector-7-91x92.png" />

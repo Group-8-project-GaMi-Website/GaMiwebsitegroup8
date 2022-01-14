@@ -56,7 +56,7 @@ loginForm.onsubmit = (e) => {
     }
 
     pInput.onkeyup = () => {
-        if (pInput.value=="") { //if pattern not matched with user entered value
+        if (pInput.value == "") { //if pattern not matched with user entered value
             pField.classList.add("error");
         } else {
             pField.classList.remove("error");
@@ -68,7 +68,7 @@ loginForm.onsubmit = (e) => {
         console.log("Form submitted");
     }
 }
- document.querySelector('#login-btn').onclick = () => {
+document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');
     searchForm.classList.remove('active');
     cart.classList.remove('active');

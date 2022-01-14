@@ -190,7 +190,7 @@ input {
     }
 
     .payment-method .selected {
-        border-color: var(--azure);
+        border-color: #f69946;
     }
 
     .payment-method .method ion-icon {
@@ -199,11 +199,11 @@ input {
 
     .payment-method .method .checkmark {
         margin-left: auto;
-        color: var(--quick-silver);
+        color: #f69946;
     }
 
     .payment-method .method .fill {
-        color: var(--azure);
+        color: #f69946;
     }
 
 .label-default {
