@@ -1208,6 +1208,35 @@ section {
                 color: #f69946;
             }
 
+.heading-review {
+    background: url(images/banner_about.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+    .heading-review h1 {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .heading-review p {
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+        .heading-review p a {
+            color: #fff;
+            padding-right: .5rem;
+        }
+
+            .heading-review p a:hover {
+                color: #f69946;
+            }
+
 .heading-shampoo {
     background: url(images/shampoo_slider.png);
     background-size: cover;
@@ -1263,7 +1292,7 @@ section {
         }
 
             .heading-beauty p a:hover {
-                color: #564741;
+                color: #f69946;
             }
 
 
@@ -1293,7 +1322,7 @@ section {
         }
 
             .heading-house p a:hover {
-                color: #564741;
+                color: #f69946;
             }
 
 .heading-about {

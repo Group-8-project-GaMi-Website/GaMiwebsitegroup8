@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
+    <title>Blog</title>
     <link rel="shortcut icon" type="image/svg" href="images/logo-1.svg" />
     <!-- font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -66,6 +66,44 @@
     <link rel="stylesheet" id="elementor-post-445-css" href="https://wgl-demo.net/pawscare/wp-content/uploads/elementor/css/post-445.css?ver=1627384000" type="text/css" media="all">
     <link rel="stylesheet" id="pawscare-theme-info-css" href="https://wgl-demo.net/pawscare/wp-content/themes/pawscare/style.css?ver=1.0.1" type="text/css" media="all">
     <style id="pawscare-theme-info-inline-css" type="text/css">
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: #fff;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem 9%;
+        }
+
+            .header .navbar a {
+                font-size: 1.9rem;
+                color: #564741;
+                margin: 0 1rem;
+                font-weight: bold;
+            }
+
+                .header .navbar a:hover {
+                    color: #f69946;
+                }
+
+            .header .icons div {
+                font-size: 2.5rem;
+                margin-left: 1.7rem;
+                cursor: pointer;
+                color: #564741;
+            }
+
+                .header .icons div:hover {
+                    color: #f69946;
+                }
+
         :root {
             --pawscare-primary-color: #F69946;
             --pawscare-secondary-color: #FCF9F4;
@@ -85,35 +123,35 @@
             --pawscare-button-color-idle-rgb: 255,255,255;
             --pawscare-button-bg-idle-rgb: 246,153,70;
             --pawscare-header-font-family: Paytone One;
-            --pawscare-header-font-weight: 400;
+            --pawscare-header-font-weight: bold;
             --pawscare-header-font-color: #564741;
             --pawscare-header-font-color-rgb: 86,71,65;
-            --pawscare-h1-font-family: Paytone One;
-            --pawscare-h1-font-size: 48px;
+            --pawscare-h1-font-family: 'Source Sans Pro', sans-serif;
+            --pawscare-h1-font-size: 62.5%;
             --pawscare-h1-line-height: 72px;
-            --pawscare-h1-font-weight: 400;
+            --pawscare-h1-font-weight: bold;
             --pawscare-h1-text-transform: none;
             --pawscare-h2-font-family: Paytone One;
             --pawscare-h2-font-size: 42px;
             --pawscare-h2-line-height: 60px;
             --pawscare-h2-font-weight: 400;
             --pawscare-h2-text-transform: none;
-            --pawscare-h3-font-family: Paytone One;
-            --pawscare-h3-font-size: 36px;
+            --pawscare-h3-font-family: 'Source Sans Pro', sans-serif;
+            --pawscare-h3-font-size: 20px;
             --pawscare-h3-line-height: 50px;
-            --pawscare-h3-font-weight: 400;
+            --pawscare-h3-font-weight: bold;
             --pawscare-h3-text-transform: none;
-            --pawscare-h4-font-family: Paytone One;
+            --pawscare-h4-font-family: 'Source Sans Pro', sans-serif;
             --pawscare-h4-font-size: 30px;
             --pawscare-h4-line-height: 40px;
             --pawscare-h4-font-weight: 400;
             --pawscare-h4-text-transform: none;
-            --pawscare-h5-font-family: Paytone One;
+            --pawscare-h5-font-family: 'Source Sans Pro', sans-serif;
             --pawscare-h5-font-size: 24px;
             --pawscare-h5-line-height: 38px;
             --pawscare-h5-font-weight: 400;
             --pawscare-h5-text-transform: none;
-            --pawscare-h6-font-family: Paytone One;
+            --pawscare-h6-font-family: 'Source Sans Pro', sans-serif;
             --pawscare-h6-font-size: 20px;
             --pawscare-h6-line-height: 32px;
             --pawscare-h6-font-weight: 400;
@@ -124,7 +162,7 @@
             --pawscare-content-font-weight: 400;
             --pawscare-content-color: #616161;
             --pawscare-menu-font-family: Paytone One;
-            --pawscare-menu-font-size: 16px;
+            --pawscare-menu-font-size: 1.9rem;
             --pawscare-menu-line-height: 30px;
             --pawscare-menu-font-weight: 400;
             --pawscare-submenu-font-family: Nunito;
@@ -144,6 +182,8 @@
             --pawscare-bg-caret: url('data:image/svg+xml; utf8, <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="451.847px" height="451.847px" viewBox="0 0 451.847 451.847" preserveAspectRatio="none" fill="%23b9b9b9"><path xmlns="http://www.w3.org/2000/svg" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751   c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0   c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></svg>');
             --pawscare-elementor-container-width: 1200px;
         }
+
+       
 
         @media only screen and (max-width: 1220px) {
             .wgl-mobile-header .header_search.search_standard .header_search-field {
@@ -208,6 +248,7 @@
                 padding-top: 80px !important;
             }
         }
+
     </style>
 
     <link rel="stylesheet" type="text/css" href="//wgl-demo.net/pawscare/wp-content/cache/wpfc-minified/dtqrhnld/83wdb.css" media="all">
@@ -265,6 +306,8 @@
             border-color: #FBEED5;
             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABJlBMVEXr6eb/2oD/wi7/xjr/0mP/ykf/tQD/vBj/3o7/uQ//vyL/twebhgD/4pzX1K3z8e349vK6tHCilCWbiQymn0jGworr6dXQza3HxcKkn1vWvV/5uRfk4dXZ1bD18+/52YebiAmyr5S9mhCzrWq5t6ufjRH54aLs0oS+qD751XqPhAybhwXsujG3sm+Zk0PTwG6Shg+PhhObhwOPgQL4zV2nlyrf27uLfgCPhRHu7OmLgAafkyiWkD3l49ibiAfTs0C+lgCniwD4sgDJxqOilzDWowWFfAH08uebig6qpFHBvH/aw26FfQTQzsvy8OyEfz20r3jAvaKbhgG9q0nc2LbZxXanoUu/u5WSggCtp1anpJKdmFz/zlX/1nGJiYmuq5Dx7+sAAADoPUZSAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfdBgUBGhh4aah5AAAAlklEQVQY02NgoBIIE8EUcwn1FkIXM1Tj5dDUQhPU502Mi7XXQxGz5uVIjGOJUUUW81HnYEyMi2HVcUOICQZzMMYmxrEyMylJwgUt5BljWRLjmJm4pI1hYp5SQLGYxDgmLnZOVxuooClIDKgXKMbN5ggV1ACLJcaBxNgcoiGCBiZwdWxOETBDrTyEFey0jYJ4eHjMGWgEAIpRFRCUt08qAAAAAElFTkSuQmCC);
         }
+
+
     </style>
     <link rel="https://api.w.org/" href="https://wgl-demo.net/pawscare/wp-json/">
     <link rel="alternate" type="application/json" href="https://wgl-demo.net/pawscare/wp-json/wp/v2/posts/10">
@@ -683,7 +726,7 @@
         <div class="box-container">
 
             <div class="box">
-                <h3>quick links</h3>
+                <h3>Quick links</h3>
                 <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
                 <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
                 <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
@@ -693,7 +736,7 @@
             </div>
 
             <div class="box">
-                <h3>extra links</h3>
+                <h3>Extra links</h3>
                 <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
                 <a href="#"> <i class="fas fa-arrow-right"></i> my favorite </a>
                 <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist </a>
@@ -702,13 +745,13 @@
             </div>
 
             <div class="box">
-                <h3>follow us</h3>
+                <h3>Follow us</h3>
                 <a href="https://www.facebook.com/xoetxoetne"> <i class="fab fa-facebook-f"></i> facebook </a>
                 <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
             </div>
 
             <div class="box">
-                <h3>newsletter</h3>
+                <h3>Newsletter</h3>
                 <p>subscribe for latest updates</p>
                 <form action="">
                     <input type="email" placeholder="enter your email">
